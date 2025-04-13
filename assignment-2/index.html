@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rahul's Bootstrap Assignment</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+   
+<!-- Custom CSS -->
+     <link rel="stylesheet" href="css/style.css">
+  
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary px-3 sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand pt-2" href="#"><h6>RahulS</h6></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cards.html">Cards</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="carousel.html">Carousel</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Challenge
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item text-white" href="challenge-1.html">Challenge 1</a></li>
+                  <li><a class="dropdown-item text-white" href="challenge-2.html">Challenge 2</a></li>
+                  <li><a class="dropdown-item text-white" href="challenge-3.html">Challenge 3</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container mt-5">
+        <div class="text-center mb-5">
+            <h1 class="display-4 fw-bold text-primary">Movie Trivia</h1>
+            <p class="lead text-secondary">Discover fascinating facts about your favorite movies!</p>
+        </div>
+        <div class="row">
+            <!-- Trivia Section 1 -->
+            <div class="col-lg-6 mb-4">
+                <div class="card">
+                    <img src="img/titanic-poster.jpg" class="card-img-top" alt="Titanic">
+                    <div class="card-body">
+                        <h5 class="card-title">Titanic</h5>
+                        <p class="card-text">
+                            Did you know that the movie "Titanic" was the first film to gross over $1 billion worldwide? Directed by James Cameron, it held the record for the highest-grossing film for over a decade until it was surpassed by another Cameron film, "Avatar."
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Trivia Section 2 -->
+            <div class="col-lg-6 mb-4">
+                <div class="card">
+                    <img src="img/star-wars-poster.jpg" class="card-img-top" alt="Star Wars">
+                    <div class="card-body">
+                        <h5 class="card-title">Star Wars</h5>
+                        <p class="card-text">
+                            The iconic "Star Wars" opening crawl was inspired by the Flash Gordon serials of the 1930s. George Lucas wanted to pay homage to the sci-fi classics that influenced him, and the scrolling text has since become a hallmark of the franchise.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Trivia Section 3 -->
+            <div class="col-lg-6 mb-4">
+                <div class="card">
+                    <img src="img/godfather-poster.jpg" class="card-img-top" alt="The Godfather">
+                    <div class="card-body">
+                        <h5 class="card-title">The Godfather</h5>
+                        <p class="card-text">
+                            "The Godfather" is widely regarded as one of the greatest films of all time. Marlon Brando, who played Don Vito Corleone, famously stuffed his cheeks with cotton during his audition to create the character's iconic voice.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Trivia Section 4 -->
+            <div class="col-lg-6 mb-4">
+                <div class="card">
+                    <img src="img/jurassic-park-poster.jpg" class="card-img-top" alt="Jurassic Park">
+                    <div class="card-body">
+                        <h5 class="card-title">Jurassic Park</h5>
+                        <p class="card-text">
+                            The sounds of the velociraptors in "Jurassic Park" were created using recordings of tortoises mating. The film's groundbreaking use of CGI and animatronics revolutionized the way movies were made.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-light text-center text-lg-start mt-5">
+        <div class="text-center p-3">
+            © 2023 Rahul's Movie Trivia. All rights reserved.
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  </body>
+</html>
