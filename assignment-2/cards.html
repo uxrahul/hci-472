@@ -52,394 +52,109 @@
           </div>
         </div>
       </nav>
-    <div class="container mt-5">
-        <div class="text-center mb-5">
-            <h1 class="display-4 fw-bold text-primary">Explore Movie Magic</h1>
-            <p class="lead text-secondary">Dive into an extensive collection of intriguing movie trivia and behind-the-scenes secrets!</p>
+      <div class="container-lg mt-5">
+        <h1>Principles of Design</h1>
+        <h2>Understanding the Core Concepts</h2>
+        <p class="mb-4">Explore the fundamental principles that shape effective design. Each card below delves into a specific principle, offering insights and examples to inspire your creativity!</p>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+        <!-- Card 1 -->
+        <div class="col">
+            <div class="card h-100 d-flex flex-column">
+                <img src="img/unity.png" class="card-img-top" alt="Unity">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Unity</h5>
+                    <p class="card-text">Unity in design ensures that all elements work together harmoniously, creating a cohesive and visually appealing composition.</p>
+                    <div class="mt-auto border-top pt-3">
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#unityModal">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
-            <!-- Card 1 -->
-            <div class="col">
-                <div class="card h-100 d-flex flex-column">
-                    <img src="img/titanic-poster.jpg" class="card-img-top" alt="Titanic">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Titanic</h5>
-                        <p class="card-text">"Titanic" was the first film to gross over $1 billion worldwide.</p>
-                        <div class="mt-auto">
-                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#titanicModal">
-                                Watch Trailer
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            <!-- Modal for Titanic -->
-            <div class="modal fade" id="titanicModal" tabindex="-1" aria-labelledby="titanicModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="titanicModalLabel">Titanic - Trailer</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="ratio ratio-16x9">
-                                <iframe src="https://www.youtube.com/embed/kVrqfYjkTdQ" title="Titanic Trailer" allowfullscreen></iframe>
-                            </div>
-                        </div>
+        <!-- Modal for Unity -->
+        <div class="modal fade" id="unityModal" tabindex="-1" aria-labelledby="unityModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="unityModalLabel">Example of Unity in Design</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="img/unity-example.png" class="img-fluid" alt="Example of Unity in Design">
+                        <p class="mt-2 text-muted">Painting: 'Composition VIII' by Wassily Kandinsky</p>
                     </div>
                 </div>
             </div>
-            <!-- Card 2 -->
-            <div class="col">
-                <div class="card h-100 d-flex flex-column">
-                    <img src="img/star-wars-poster.jpg" class="card-img-top" alt="Star Wars">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Star Wars</h5>
-                        <p class="card-text">The opening crawl was inspired by 1930s Flash Gordon serials.</p>
-                        <div class="mt-auto">
-                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#starWarsModal">
-                                Watch Trailer
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Modal for Star Wars -->
-            <div class="modal fade" id="starWarsModal" tabindex="-1" aria-labelledby="starWarsModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="starWarsModalLabel">Star Wars - Trailer</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="ratio ratio-16x9">
-                                <iframe src="https://www.youtube.com/embed/vZ734NWnAHA" title="Star Wars Trailer" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 3 -->
-            <div class="col">
-                <div class="card h-100 d-flex flex-column">
-                    <img src="img/godfather-poster.jpg" class="card-img-top" alt="The Godfather">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">The Godfather</h5>
-                        <p class="card-text">Marlon Brando stuffed his cheeks to create Don Corleone's voice.</p>
-                        <div class="mt-auto">
-                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#godfatherModal">
-                                Watch Trailer
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Modal for The Godfather -->
-            <div class="modal fade" id="godfatherModal" tabindex="-1" aria-labelledby="godfatherModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="godfatherModalLabel">The Godfather - Trailer</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="ratio ratio-16x9">
-                                <iframe src="https://www.youtube.com/embed/sY1S34973zA" title="The Godfather Trailer" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 4 -->
-            <div class="col">
-                <div class="card h-100 d-flex flex-column">
-                    <img src="img/jurassic-park-poster.jpg" class="card-img-top" alt="Jurassic Park">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Jurassic Park</h5>
-                        <p class="card-text">Velociraptor sounds were created using tortoise mating recordings.</p>
-                        <div class="mt-auto">
-                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#jurassicParkModal">
-                                Watch Trailer
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Modal for Jurassic Park -->
-            <div class="modal fade" id="jurassicParkModal" tabindex="-1" aria-labelledby="jurassicParkModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="jurassicParkModalLabel">Jurassic Park - Trailer</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="ratio ratio-16x9">
-                                <iframe src="https://www.youtube.com/embed/lc0UehYemQA" title="Jurassic Park Trailer" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 5 -->
-            <div class="col">
-                <div class="card h-100 d-flex flex-column">
-                    <img src="img/avatar-poster.jpg" class="card-img-top" alt="Avatar">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Avatar</h5>
-                        <p class="card-text">"Avatar" was the first movie to gross over $2 billion worldwide.</p>
-                        <div class="mt-auto">
-                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#avatarModal">
-                                Watch Trailer
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Modal for Avatar -->
-            <div class="modal fade" id="avatarModal" tabindex="-1" aria-labelledby="avatarModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="avatarModalLabel">Avatar - Trailer</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="ratio ratio-16x9">
-                                <iframe src="https://www.youtube.com/embed/5PSNL1qE6VY" title="Avatar Trailer" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 6 -->
-            <div class="col">
-                <div class="card h-100 d-flex flex-column">
-                    <img src="img/inception-poster.jpg" class="card-img-top" alt="Inception">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Inception</h5>
-                        <p class="card-text">The spinning top in "Inception" symbolizes reality vs. dreams.</p>
-                        <div class="mt-auto">
-                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#inceptionModal">
-                                Watch Trailer
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Modal for Inception -->
-            <div class="modal fade" id="inceptionModal" tabindex="-1" aria-labelledby="inceptionModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="inceptionModalLabel">Inception - Trailer</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="ratio ratio-16x9">
-                                <iframe src="https://www.youtube.com/embed/YoHD9XEInc0" title="Inception Trailer" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 7 -->
-            <div class="col">
-                <div class="card h-100">
-                    <img src="img/avengers-endgame-poster.jpg" class="card-img-top" alt="Avengers: Endgame">
-                    <div class="card-body">
-                        <h5 class="card-title">Avengers: Endgame</h5>
-                        <p class="card-text">"Endgame" became the highest-grossing film of all time in 2019.</p>
-                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#endgameModal">
-                            Watch Trailer
+        </div>
+        <!-- Card 2 -->
+        <div class="col">
+            <div class="card h-100 d-flex flex-column">
+                <img src="img/balance.png" class="card-img-top" alt="Balance">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Balance</h5>
+                    <p class="card-text">Balance in design refers to the distribution of visual weight, creating a sense of stability and harmony in the composition.</p>
+                    <div class="mt-auto border-top pt-3">
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#balanceModal">
+                            Learn More
                         </button>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- Modal for Avengers: Endgame -->
-            <div class="modal fade" id="endgameModal" tabindex="-1" aria-labelledby="endgameModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="endgameModalLabel">Avengers: Endgame - Trailer</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="ratio ratio-16x9">
-                                <iframe src="https://www.youtube.com/embed/TcMBFSGVi1c" title="Avengers: Endgame Trailer" allowfullscreen></iframe>
-                            </div>
-                        </div>
+        <!-- Modal for Balance -->
+        <div class="modal fade" id="balanceModal" tabindex="-1" aria-labelledby="balanceModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="balanceModalLabel">Example of Balance in Design</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="img/balance-example.png" class="img-fluid" alt="Example of Balance in Design">
+                        <p class="mt-2 text-muted">Artwork: 'Composition with Red, Blue, and Yellow' by Piet Mondrian</p>
                     </div>
                 </div>
             </div>
-            <!-- Card 8 -->
-            <div class="col">
-                <div class="card h-100 d-flex flex-column">
-                    <img src="img/harry-potter-poster.jpg" class="card-img-top" alt="Harry Potter">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Harry Potter</h5>
-                        <p class="card-text">The "Harry Potter" series used over 160 pairs of glasses for Harry.</p>
-                        <div class="mt-auto">
-                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#harryPotterModal">
-                                Watch Trailer
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Modal for Harry Potter -->
-            <div class="modal fade" id="harryPotterModal" tabindex="-1" aria-labelledby="harryPotterModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="harryPotterModalLabel">Harry Potter and the Sorcerer's Stone - Trailer</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="ratio ratio-16x9">
-                                <iframe src="https://www.youtube.com/embed/VyHV0BRtdxo" title="Harry Potter and the Sorcerer's Stone Trailer" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 9 -->
-            <div class="col">
-                <div class="card h-100 d-flex flex-column">
-                    <img src="img/lotr-poster.jpg" class="card-img-top" alt="The Lord of the Rings">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">The Lord of the Rings</h5>
-                        <p class="card-text">The trilogy won 17 Academy Awards, including Best Picture.</p>
-                        <div class="mt-auto">
-                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#lotrModal">
-                                Watch Trailer
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Modal for The Lord of the Rings -->
-            <div class="modal fade" id="lotrModal" tabindex="-1" aria-labelledby="lotrModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="lotrModalLabel">The Lord of the Rings: The Fellowship of the Ring - Trailer</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="ratio ratio-16x9">
-                                <iframe src="https://www.youtube.com/embed/V75dMMIW2B4" title="The Lord of the Rings: The Fellowship of the Ring Trailer" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 10 -->
-            <div class="col">
-                <div class="card h-100">
-                    <img src="img/black-panther-poster.jpg" class="card-img-top" alt="Black Panther">
-                    <div class="card-body">
-                        <h5 class="card-title">Black Panther</h5>
-                        <p class="card-text">"Black Panther" was the first superhero film nominated for Best Picture.</p>
-                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#blackPantherModal">
-                            Watch Trailer
+        </div>
+        <!-- Card 3 -->
+        <div class="col">
+            <div class="card h-100 d-flex flex-column">
+                <img src="img/harmony.png" class="card-img-top" alt="Harmony">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Harmony</h5>
+                    <p class="card-text">Harmony in design brings together elements to create a pleasing and consistent composition, ensuring all parts work well together.</p>
+                    <div class="mt-auto border-top pt-3">
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#harmonyModal">
+                            Learn More
                         </button>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- Modal for Black Panther -->
-            <div class="modal fade" id="blackPantherModal" tabindex="-1" aria-labelledby="blackPantherModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="blackPantherModalLabel">Black Panther - Trailer</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="ratio ratio-16x9">
-                                <iframe src="https://www.youtube.com/embed/xjDjIWPwcPU" title="Black Panther Trailer" allowfullscreen></iframe>
-                            </div>
-                        </div>
+        <!-- Modal for Harmony -->
+        <div class="modal fade" id="harmonyModal" tabindex="-1" aria-labelledby="harmonyModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="harmonyModalLabel">Example of Harmony in Design</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="img/harmony-example.png" class="img-fluid" alt="Example of Harmony in Design">
+                        <p class="mt-2 text-muted">Artwork: 'Water Lilies' by Claude Monet</p>
                     </div>
                 </div>
             </div>
-            <!-- Card 11 -->
-            <div class="col">
-                <div class="card h-100 d-flex flex-column">
-                    <img src="img/frozen-poster.jpg" class="card-img-top" alt="Frozen">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Frozen</h5>
-                        <p class="card-text">"Let It Go" became a global phenomenon after "Frozen" premiered.</p>
-                        <div class="mt-auto">
-                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#frozenModal">
-                                Watch Trailer
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Modal for Frozen -->
-            <div class="modal fade" id="frozenModal" tabindex="-1" aria-labelledby="frozenModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="frozenModalLabel">Frozen - Trailer</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="ratio ratio-16x9">
-                                <iframe src="https://www.youtube.com/embed/TbQm5doF_Uc" title="Frozen Trailer" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 12 -->
-            <div class="col">
-                <div class="card h-100 d-flex flex-column">
-                    <img src="img/toy-story-poster.jpg" class="card-img-top" alt="Toy Story">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Toy Story</h5>
-                        <p class="card-text">"Toy Story" was the first fully computer-animated feature film.</p>
-                        <div class="mt-auto">
-                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#toyStoryModal">
-                                Watch Trailer
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Modal for Toy Story -->
-            <div class="modal fade" id="toyStoryModal" tabindex="-1" aria-labelledby="toyStoryModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="toyStoryModalLabel">Toy Story - Trailer</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="ratio ratio-16x9">
-                                <iframe src="https://www.youtube.com/embed/KYz2wyBy3kc" title="Toy Story Trailer" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        </div>
         </div>
     </div>
+</div>
+
     <footer class="bg-light text-center text-lg-start mt-5">
         <div class="text-center p-3">
             © 2023 Rahul's Movie Trivia. All rights reserved.

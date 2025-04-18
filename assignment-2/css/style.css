@@ -76,3 +76,8 @@ body {
 p.card-text{
     color: #2D2D2D !important;
 }
+
+.c-padding{
+    padding: 0 128px;
+    color:#2D2D2D;
+}
