@@ -1,0 +1,224 @@
+.navbar{
+    border-bottom: 1px solid #e0e0e0 !important; /* Subtle border */
+}
+
+.navbar-brand{
+    font-family: "Chivo Mono", monospace;
+}
+
+footer{
+    border-top: 1px solid #e0e0e0 !important; /* Subtle border */
+}
+
+hr {
+    color: #b9b9b9; /* Subtle off-white shade used in Bootstrap */
+}
+
+code{
+    color: #d19a66;
+}
+
+/* IBM Plex Sans */
+.ibm-plex-sans{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Default weight */
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+.ibm-plex-sans em{
+    font-style: italic;
+    font-weight: 500;
+  }
+
+.ibm-plex-sans h1{
+    font-weight: 400;
+}
+
+.ibm-plex-sans h2{
+    font-weight: 600;
+}
+.ibm-plex-sans h3{
+    font-weight: 550;
+}
+.ibm-plex-sans h4{
+    font-weight: 500;
+    font-style: italic;
+}
+
+.link-ibm-plex a{
+font-weight: 550;
+font-style: normal;
+color: initial;
+text-decoration: underline;
+text-decoration-thickness: 0.1rem;
+text-decoration-color: #0d6efd; /* Bootstrap primary color */
+}
+
+.link-ibm-plex a:hover{
+    color: #0d6efd; /* A slightly darker shade for hover effect */
+    text-decoration: none;
+}
+
+.link-ibm-plex .hover-state{
+    color: #0d6efd;
+    font-weight: 550;
+}
+
+.link-ibm-plex .hover-state::after {
+    content: "";
+    background-image: url('img/pointer.png'); /* Replace with your file's location */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 2rem; /* Adjust width as needed */
+    height: 2rem; /* Adjust height as needed */
+    margin-left: 0.5rem; /* Add some spacing between text and image */
+    display: inline-block;
+    vertical-align: middle;
+}
+/* End of IBM Plex Sans */
+
+
+/* PlayFair Display & Source Sans 3 */
+.playfair-display{
+    font-family: "Source Sans 3", serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Default weight */
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+.playfair-display em{
+    font-style: italic;
+    font-weight: 500;
+  }
+
+.playfair-display h1{
+    font-weight: 400;
+    font-family: "PlayFair Display", serif;
+}
+
+.playfair-display h2{
+    font-weight: 600;
+    font-family: "PlayFair Display", serif;
+}
+.playfair-display h3{
+    font-weight: 550;
+    font-family: "PlayFair Display", serif;
+}
+.playfair-display h4{
+    font-weight: 500;
+    font-family: "PlayFair Display", serif;
+    font-style: italic;
+}
+
+.link-playfair-display a{
+    font-family: "PlayFair Display", serif;
+    font-weight: 550;
+    font-style: normal;
+    color: initial;
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+    text-decoration-color: #0d6efd; /* Bootstrap primary color */
+}
+
+.link-playfair-display a:hover{
+    font-family: "PlayFair Display", serif;
+    color: #0d6efd; /* A slightly darker shade for hover effect */
+    text-decoration: none;
+}
+
+.link-playfair-display .hover-state{
+    font-family: "PlayFair Display", serif;
+    color: #0d6efd;
+    font-weight: 550;
+}
+
+.link-playfair-display .hover-state::after {
+    content: "";
+    background-image: url('img/pointer.png'); /* Replace with your file's location */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 2rem; /* Adjust width as needed */
+    height: 2rem; /* Adjust height as needed */
+    margin-left: 0.5rem; /* Add some spacing between text and image */
+    display: inline-block;
+    vertical-align: middle;
+}
+/* End of PlayFair Display Source Sans 3*/
+
+/* Chivo Mono & Epilogue */
+.chivo-mono{
+    font-family: "Epilogue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Default weight */
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+.chivo-mono em{
+    font-style: italic;
+    font-weight: 500;
+  }
+
+.chivo-mono h1{
+    font-weight: 400;
+    font-family: "Chivo Mono", serif;
+}
+
+.chivo-mono h2{
+    font-weight: 600;
+    font-family: "Chivo Mono", serif;
+}
+.chivo-mono h3{
+    font-weight: 550;
+    font-family: "Chivo Mono", serif;
+}
+.chivo-mono h4{
+    font-weight: 500;
+    font-family: "Chivo Mono", serif;
+    font-style: italic;
+}
+
+.link-chivo-mono a{
+    font-family: "Chivo Mono", serif;
+    font-weight: 550;
+    font-style: normal;
+    color: initial;
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+    text-decoration-color: #0d6efd; /* Bootstrap primary color */
+}
+
+.link-chivo-mono a:hover{
+    font-family: "Chivo Mono", serif;
+    color: #0d6efd; /* A slightly darker shade for hover effect */
+    background: #e6f0ff; /* Light blue background for good contrast with #0d6efd */
+    text-decoration: none;
+}
+
+.link-chivo-mono .hover-state{
+    font-family: "Chivo Mono", serif;
+    color: #0d6efd;
+    background-color: #e6f0ff; /* Light blue background for good contrast with #0d6efd */
+    display: inline; /* Restrict background color to only the text */
+    font-weight: 550;
+}
+
+.link-chivo-mono .hover-state::after {
+    content: "";
+    background-image: url('img/pointer.png'); /* Replace with your file's location */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 2rem; /* Adjust width as needed */
+    height: 2rem; /* Adjust height as needed */
+    margin-left: 0.5rem; /* Add some spacing between text and image */
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #ffffff;
+}
+/* End of Chivo Mono & Epilogue*/
