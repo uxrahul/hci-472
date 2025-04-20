@@ -22,6 +22,7 @@ code{
 /* IBM Plex Sans */
 .ibm-plex-sans{
     font-family: "IBM Plex Sans", sans-serif;
+    font-size: 1rem;/* Base font size */
     font-optical-sizing: auto;
     font-weight: 400; /* Default weight */
     font-style: normal;
@@ -36,26 +37,32 @@ code{
 
 .ibm-plex-sans h1{
     font-weight: 400;
+    font-size: 5.61rem; /* Updated font size */
 }
 
 .ibm-plex-sans h2{
     font-weight: 600;
+    font-size: 4.209rem; /* Updated font size */
 }
+
 .ibm-plex-sans h3{
     font-weight: 550;
+    font-size: 3.157rem; /* Updated font size */
 }
+
 .ibm-plex-sans h4{
     font-weight: 500;
     font-style: italic;
+    font-size: 2.369rem; /* Updated font size */
 }
 
 .link-ibm-plex a{
-font-weight: 550;
-font-style: normal;
-color: initial;
-text-decoration: underline;
-text-decoration-thickness: 0.1rem;
-text-decoration-color: #0d6efd; /* Bootstrap primary color */
+    font-weight: 550;
+    font-style: normal;
+    color: initial;
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+    text-decoration-color: #0d6efd; /* Bootstrap primary color */
 }
 
 .link-ibm-plex a:hover{
@@ -85,6 +92,7 @@ text-decoration-color: #0d6efd; /* Bootstrap primary color */
 /* PlayFair Display & Source Sans 3 */
 .playfair-display{
     font-family: "Source Sans 3", serif;
+    font-size: 1rem;/* Base font size */
     font-optical-sizing: auto;
     font-weight: 400; /* Default weight */
     font-style: normal;
@@ -100,20 +108,24 @@ text-decoration-color: #0d6efd; /* Bootstrap primary color */
 .playfair-display h1{
     font-weight: 400;
     font-family: "PlayFair Display", serif;
+    font-size: 5.61rem; /* Updated font size */
 }
 
 .playfair-display h2{
     font-weight: 600;
     font-family: "PlayFair Display", serif;
+    font-size: 4.209rem; /* Updated font size */
 }
 .playfair-display h3{
     font-weight: 550;
     font-family: "PlayFair Display", serif;
+    font-size: 3.157rem; /* Updated font size */
 }
 .playfair-display h4{
     font-weight: 500;
     font-family: "PlayFair Display", serif;
     font-style: italic;
+    font-size: 2.369rem; /* Updated font size */
 }
 
 .link-playfair-display a{
@@ -154,35 +166,42 @@ text-decoration-color: #0d6efd; /* Bootstrap primary color */
 /* Chivo Mono & Epilogue */
 .chivo-mono{
     font-family: "Epilogue", sans-serif;
+    font-size: 1rem; /* Base font size */
     font-optical-sizing: auto;
     font-weight: 400; /* Default weight */
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
-  }
+}
 
 .chivo-mono em{
     font-style: italic;
     font-weight: 500;
-  }
+}
 
 .chivo-mono h1{
     font-weight: 400;
     font-family: "Chivo Mono", serif;
+    font-size: 5.61rem; /* Updated font size */
 }
 
 .chivo-mono h2{
     font-weight: 600;
     font-family: "Chivo Mono", serif;
+    font-size: 4.209rem; /* Updated font size */
 }
+
 .chivo-mono h3{
     font-weight: 550;
     font-family: "Chivo Mono", serif;
+    font-size: 3.157rem; /* Updated font size */
 }
+
 .chivo-mono h4{
     font-weight: 500;
     font-family: "Chivo Mono", serif;
     font-style: italic;
+    font-size: 2.369rem; /* Updated font size */
 }
 
 .link-chivo-mono a{
