@@ -7,6 +7,26 @@
     <!-- PNG versions for modern browsers -->
     <link rel="icon" type="image/png" sizes="32x32" href="img/32w/Logo White Background Transparent.png">
     <link rel="icon" type="image/png" sizes="192x192" href="img/192w/Logo White Background Transparent.png">
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const matchDark = window.matchMedia('(prefers-color-scheme: dark)');
+        const updateFavicon = () => {
+          const favicon = document.querySelector("link[rel~='icon']");
+          if (favicon) {
+            favicon.href = matchDark.matches 
+              ? "img/32w/Logo Dark Background Transparent.png"  // Dark logo for light background
+              : "img/32w/Logo White Background Transparent.png"; // Light logo for dark background
+          }
+        };
+        if (matchDark.addEventListener) {
+          matchDark.addEventListener('change', updateFavicon);
+        } else if (matchDark.addListener) { // Fallback for older browsers
+          matchDark.addListener(updateFavicon);
+        }
+        updateFavicon();
+      });
+    </script>
+    <link rel="icon" href="img/32w/Logo White Background Transparent.png"> <!-- Fallback favicon -->
 
     <!-- Roboto Condensed -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,7 +41,7 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary px-3 sticky-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src="img/512w/Logo Dark Background Transparent.png" alt="Logo" width="30" height="30">
+            <img src="img/512w/Logo Dark Background Transparent.png" alt="Logo" width="40" height="40">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -37,7 +57,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto">
-            <h1 class="mt-5">The process of creating the Logo</h1>
+            <h1 class="mt-5">The process of creating the Polished Logo</h1>
             </div>
         </div>
 
@@ -109,12 +129,13 @@
         </div>
 
         <!-- Image cards for the final logos -->
-        <div class="col-lg-8 mx-auto">
-            <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-4">
+        <div class="col-lg-8 mx-auto mb-5">
+            <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3 g-4">
                 <div class="col">
                 <div class="card h-100">
-                <img src="img/Logo BnW White Background.png" class="card-img-top" alt="Black and White Logo on White Background">
+                <img src="img/Logo BnW White Background.png" class="card-img-top wt-back" alt="Black and White Logo on White Background">
                 <div class="card-body">
+                <h3 class="card-title">Black logo on light background</h3>
                 <p class="card-text">The black logo on a white background communicates simplicity and clarity with maximum contrast for clean visibility.</p>
                 </div>
                 </div>
@@ -123,14 +144,16 @@
                 <div class="card h-100">
                 <img src="img/Logo BnW Dark Background.png" class="card-img-top" alt="Black and White Logo on Dark Background">
                 <div class="card-body">
+                <h3 class="card-title">White logo on dark background</h3>
                 <p class="card-text">The white logo on a black background amplifies boldness and precision, making it ideal for dark mode interfaces.</p>
                 </div>
                 </div>
                 </div>
                 <div class="col">
                 <div class="card h-100">
-                <img src="img/Logo Color White Background.png" class="card-img-top" alt="Color Logo on White Background">
+                <img src="img/Logo Color White Background.png" class="card-img-top wt-back" alt="Color Logo on White Background">
                 <div class="card-body">
+                <h3 class="card-title">Colored logo on light background</h3>
                 <p class="card-text">The colored logo on a white background uses #787068 and #2f2f2f to convey a neutral, grounded tone with visual softness and approachability.</p>
                 </div>
                 </div>
@@ -139,16 +162,31 @@
                 <div class="card h-100">
                 <img src="img/Logo Color Dark Background.png" class="card-img-top" alt="Color Logo on Dark Background">
                 <div class="card-body">
+                <h3 class="card-title">Colored logo on dark background</h3>
                 <p class="card-text">The colored logo on a black background, using #dcd4ca and #787878, brings warmth and legibility in dark settings while maintaining a refined professional feel.</p>
+                </div>
+                </div>
+                </div>
+                <div class="col">
+                <div class="card h-100">
+                <img src="img/32w/Logo White Background Transparent.png" class="card-img-top wt-back" alt="Color Logo on Dark Background">
+                <div class="card-body">
+                <h3 class="card-title">Favicon on light background</h3>
+                <p class="card-text">The favicon version ensures brand visibility in browser tabs and bookmarks, adapting cleanly to both light and dark modes for consistent recognition.</p>
+                </div>
+                </div>
                 </div>
                 </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-8 mx-auto">
-                <h2 class="my-4">Import Sizes & file type</h2>
-                <p class="my-4">The logo was exported and used in transparent <strong>PNG</strong> format to ensure scalability and background flexibility. I imported multiple sizes, including <strong>16×16, 32×32, 48×48, 192×192,</strong> and a high-resolution 1080×1080 version for use across favicon, navbar icons, and presentations.</p>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="my-4">Import Sizes & file type</h2>
+                    <p class="my-4">The logo was exported and used in transparent <strong>PNG</strong> format to ensure scalability and background flexibility. I created multiple sizes, including <strong>16×16, 32×32, 48×48, 192×192</strong>, and a high-resolution <strong>1080×1080</strong> version. These were used across different contexts: the 1080px version was used in the navigation bar and main layout; 192px and 512px were used for high-resolution displays; and the 16px and 32px were optimized for the favicon. The favicon updates dynamically based on light or dark browser mode. This flexible configuration ensures that the logo maintains clarity and visual balance across branding contexts—whether in color, black-and-white, or inverse form—and is functional for both screen and mobile uses.</p>
+                </div>
             </div>
         </div>
 
